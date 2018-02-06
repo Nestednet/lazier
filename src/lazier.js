@@ -13,7 +13,7 @@ var lazierCanvasProcess = function (container) {
 
     var lowBlur = new Image();
     lowBlur.src = renderImageLow.dataset.src;
-    
+
     lowBlur.onload = function () {
         var w = lazierCanvas.width;
         var h = lazierCanvas.height;
@@ -31,17 +31,17 @@ var lazierBigProcess = function (container) {
     };
 }
 
+var lazierContainers = document.querySelectorAll('.lazierContainer');
+
+for (var i = 0; i < lazierContainers.length; i++) {
+    lazierSmallProcess(lazierContainers.item(i));
+}
+
+for (var i = 0; i < lazierContainers.length; i++) {
+    lazierCanvasProcess(lazierContainers.item(i));
+}
+
 window.onload = function () {
-
-    var lazierContainers = document.querySelectorAll('.lazierContainer');
-
-    for (var i = 0; i < lazierContainers.length; i++) {
-        lazierSmallProcess(lazierContainers.item(i));
-    }
-
-    for (var i = 0; i < lazierContainers.length; i++) {
-        lazierCanvasProcess(lazierContainers.item(i));
-    }
 
     for (var i = 0; i < lazierContainers.length; i++) {
         lazierBigProcess(lazierContainers.item(i));

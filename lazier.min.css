@@ -1,1 +1,1 @@
-.lazierContainer{position:absolute;top:0;left:0;width:100%;height:100%}.lazierContainer canvas,.lazierContainer img{position:absolute;width:100%;height:100%;top:0;left:0}.lazierContainer img{top:0;left:0}.lazierLowFy{display:none}.lazierLowFy.loaded{display:block}.lazierRender{display:none}.lazierRender.loaded{display:block}
+.lazierContainer,.lazierContainer canvas,.lazierContainer img{position:absolute;top:0;left:0;width:100%;height:100%}.lazierLowFy{display:none}.lazierLowFy.loaded{display:block}.lazierRender{display:none}.lazierRender.loaded{display:block}

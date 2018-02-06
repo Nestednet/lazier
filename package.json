@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Nestednet/lazier/issues"
   },
-  "homepage": "https://github.com/Nestednet/lazier#readme"
+  "homepage": "https://github.com/Nestednet/lazier#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0"
+  }
 }
