@@ -1,0 +1,27 @@
+{
+  "name": "lazier-js",
+  "version": "0.1.0",
+  "description": "Little handy lazy loading images library",
+  "main": "lazier.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nestednet/lazier.git"
+  },
+  "keywords": [
+    "lazy load",
+    "lazy loading",
+    "images",
+    "media",
+    "lazy",
+    "performance"
+  ],
+  "author": "Eudald Arranz, Nested.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nestednet/lazier/issues"
+  },
+  "homepage": "https://github.com/Nestednet/lazier#readme"
+}
