@@ -33,13 +33,20 @@ var lazierBigProcess = function (container) {
 
 var lazierContainers = document.querySelectorAll('.lazierContainer');
 
-for (var i = 0; i < lazierContainers.length; i++) {
-    lazierSmallProcess(lazierContainers.item(i));
-}
 
-for (var i = 0; i < lazierContainers.length; i++) {
-    lazierCanvasProcess(lazierContainers.item(i));
-}
+document.onreadystatechange = function(e)
+{
+    if (document.readyState === 'complete')
+    {
+        for (var i = 0; i < lazierContainers.length; i++) {
+            lazierSmallProcess(lazierContainers.item(i));
+        }
+
+        for (var i = 0; i < lazierContainers.length; i++) {
+            lazierCanvasProcess(lazierContainers.item(i));
+        }
+    }
+};
 
 window.onload = function () {
 
