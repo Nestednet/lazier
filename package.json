@@ -1,6 +1,6 @@
 {
   "name": "lazier-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Little handy lazy loading images library",
   "main": "lazier.min.js",
   "scripts": {
