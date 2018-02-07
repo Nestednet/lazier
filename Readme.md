@@ -17,7 +17,12 @@ Oh, and doing it the same way as Medium does it handles it pretty :sparkles: bea
 
 ### How to use it
 
-Get both `lazier.min.js` and `lazier.min.css`. You download the files ~~or get it with a CDN~~ (To Do).
+Get both `lazier.min.js` and `lazier.min.css`.
+You can download it from github or use npm to get the updated version.
+
+```BASH
+npm install lazier-js
+```
 
 You need to **link the minified css file** at the header of your page:
 ```HTML
