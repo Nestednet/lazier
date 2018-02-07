@@ -31,7 +31,7 @@ var lazierBigProcess = function (container) {
     };
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {
+//document.addEventListener("DOMContentLoaded", function(event) {
     var lazierContainers = document.querySelectorAll('.lazierContainer');
     // for (var i = 0; i < lazierContainers.length; i++) {
     //     lazierSmallProcess(lazierContainers.item(i));
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for (var i = 0; i < lazierContainers.length; i++) {
         lazierCanvasProcess(lazierContainers.item(i));
     }
-});
+//});
 
 window.onload = function () {
   var lazierContainers = document.querySelectorAll('.lazierContainer');
