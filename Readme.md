@@ -1,3 +1,4 @@
+[![Known Vulnerabilities](https://snyk.io/test/npm/lazier-js/badge.svg)](https://snyk.io/test/npm/lazier-js)
 ## Lazier.js
 A little handy library for lazy loading the images of your Page:
 
