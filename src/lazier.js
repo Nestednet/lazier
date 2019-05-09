@@ -42,9 +42,28 @@ var lazierBigProcess = function (container) {
     }
 //});
 
+
+
+var lazierBigBckgProcess = function (container) {
+    var renderImage = container.querySelector('.lazierBackgroundRender');
+    renderImage.style.backgroundImage = 'url("'+renderImage.dataset.src+'")';
+    renderImage.onload = function () {
+        renderImage.classList.add('loaded');
+    };
+    renderImage.classList.remove("blur");
+}
+
+
+
+
 window.onload = function () {
-  var lazierContainers = document.querySelectorAll('.lazierContainer');
-  for (var i = 0; i < lazierContainers.length; i++) {
-      lazierBigProcess(lazierContainers.item(i));
-  }
+    var lazierContainers = document.querySelectorAll('.lazierContainer');
+    var lazierBckgContainers = document.querySelectorAll('.lazierBackgroundContainer');
+    for (var i = 0; i < lazierContainers.length; i++) {
+        lazierBigProcess(lazierContainers.item(i));
+    }
+    for (var i = 0; i < lazierBckgContainers.length; i++) {
+        lazierBigBckgProcess(lazierBckgContainers.item(i));
+    }
+
 }
